@@ -23,3 +23,27 @@ a{ text-decoration: none; color: black; margin: 30px;  }
 main{ display:flex ; background-color: rgb(240, 240, 166); }
 
 .parte1{text-align: center;}
+
+   /*RESPONSIVE TABLET*/
+   @media screen and (max-width:1023px) {
+    .transform{
+        width: 150px;
+        height: 150px;
+    }
+ }
+ /*RESPONSIVE MOBILE*/
+ @media screen and (max-width: 480px) {
+    .transform{
+        width: 100px;
+        height: 100px;
+    }
+ }
+
+
+
+
+
+
+
+
+
